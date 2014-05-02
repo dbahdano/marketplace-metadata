@@ -1963,11 +1963,11 @@
 		<id>KFF</id>
 		<type>Mixed</type>
 		<name>KFF</name>
-		<description>This market entry contains a number of step and jobentry plugins from the KFF project:
-			- Table compare
-			- Environment configurator
-			- Data Grid (in 4.1)
-			- ...
+		<description><![CDATA[This market entry contains a number of step and jobentry plugins from the KFF project:
+- Table compare
+- Environment configurator
+- Data Grid (in 4.1)
+- ...]]>
 		</description>
 		<versions>
 			<version>
@@ -2022,22 +2022,22 @@
 		<id>EasyDQ</id>
 		<type>Step</type>
 		<name>EasyDataQuality for Pentaho</name>
-		<description>
+		<description><![CDATA[
 
-			Combine the leading open source ETL tool with the leading data cleansing functions!
+Combine the leading open source ETL tool with the leading data cleansing functions!
 
-			EasyDQ delivers on demand data quality functions that are fully integrated with Pentaho Data Integration / Kettle.
+EasyDQ delivers on demand data quality functions that are fully integrated with Pentaho Data Integration / Kettle.
 
-			Data quality functions by Human Inference and EasyDQ available in Pentaho Data Integration:
+Data quality functions by Human Inference and EasyDQ available in Pentaho Data Integration:
 
-			* Data profiling (through DataCleaner)
-			* Name cleansing
-			* Address cleansing
-			* Phone cleansing
-			* Email cleansing
-			* Detect and merge duplicates (through DataCleaner)
+* Data profiling (through DataCleaner)
+* Name cleansing
+* Address cleansing
+* Phone cleansing
+* Email cleansing
+* Detect and merge duplicates (through DataCleaner)
 
-			Register now at www.easydq.com and start increasing the quality of your data.
+Register now at www.easydq.com and start increasing the quality of your data.]]>
 
 		</description>
 		<img>http://www.easydq.com/media/120433/teaser_pentaho_screenshots.png</img>
@@ -2200,24 +2200,24 @@
 		<id>MDCheckPlugin</id>
 		<type>Step</type>
 		<name>MDCheck</name>
-		<description> Melissa Data Contact Verification Tools:
+		<description><![CDATA[ Melissa Data Contact Verification Tools:
 
-			Contact Verify Component
-			• Standardize, verify, and correct U.S. and Canadian addresses
-			• Verify and normalize U.S. and Canadian phones on a 7-10 digit level
-			• Parse names, genderize, and detect suspicious words or companies in name field
-			• Geocode addresses by assigning rooftop lat/long coordinates*
+Contact Verify Component
+• Standardize, verify, and correct U.S. and Canadian addresses
+• Verify and normalize U.S. and Canadian phones on a 7-10 digit level
+• Parse names, genderize, and detect suspicious words or companies in name field
+• Geocode addresses by assigning rooftop lat/long coordinates*
 
-			SmartMover Component
-			• U.S./Canadian change of address processing to update addresses of people or
-			businesses that have moved
+SmartMover Component
+• U.S./Canadian change of address processing to update addresses of people or
+businesses that have moved
 
-			MatchUp Component
-			• Identify duplicate records with domain specific knowledge of contact information
+MatchUp Component
+• Identify duplicate records with domain specific knowledge of contact information
 
-			IP Locator Component
-			• Identify web visitor's geographic location
-			• Reduce fraud and geo target
+IP Locator Component
+• Identify web visitor's geographic location
+• Reduce fraud and geo target]]>
 
 		</description>
 		<author>Melissa Data</author>
@@ -2242,9 +2242,10 @@
 		<id>MDGlobalAddressPlugin</id>
 		<type>Step</type>
 		<name>MDGlobalVerify</name>
-		<description> Global Verify Component
-			• Address verification for over 240 countries
-			• Transliteration of many major character sets and display output in either nature or  Roman characters</description>
+		<description><![CDATA[ Global Verify Component
+• Address verification for over 240 countries
+• Transliteration of many major character sets and display output in either nature or  Roman characters]]>
+		</description>
 		<author>Melissa Data</author>
 		<documentation_url>http://w10.melissadata.com/dqt/contact-zone/global-verify-component.htm</documentation_url>
 		<versions>
@@ -2266,9 +2267,10 @@
 		<id>MDPersonatorPlugin</id>
 		<type>Step</type>
 		<name>MDPersonator</name>
-		<description> Personator Component
-			• Verifies name corresponds to address, email, and phone data
-			• Appends missing name and company name, phone number, and/or email address</description>
+		<description><![CDATA[ Personator Component
+• Verifies name corresponds to address, email, and phone data
+• Appends missing name and company name, phone number, and/or email address]]>
+		</description>
 		<author>Melissa Data</author>
 		<documentation_url>http://w10.melissadata.com/dqt/contact-zone/personator-component.htm</documentation_url>
 		<versions>
@@ -2386,27 +2388,27 @@
 		<id>tdeoutputplugin</id>
 		<type>Step</type>
 		<name>PDI Tableau Data Extract Output Plugin</name>
-		<description>The Tableau Data Extract plugin for Pentaho Data Integration allows you to use Pentaho's ETL
-			capabilities to generate a Tableau Data Extract (tde) file. You can then publish the TDE file to a
-			Tableau server or use the TDE in Tableau Desktop.
+		<description><![CDATA[The Tableau Data Extract plugin for Pentaho Data Integration allows you to use Pentaho's ETL
+capabilities to generate a Tableau Data Extract (tde) file. You can then publish the TDE file to a
+Tableau server or use the TDE in Tableau Desktop.
 
-			Due to licensing the Tableau Data Extract API is not distributed through the Pentaho Marketplace
-			and requires additional installation.  Instructions to download and install the Tableau Data Extract
-			API are available in the README or at: https://github.com/cdeptula/tdeoutputplugin</description>
+Due to licensing the Tableau Data Extract API is not distributed through the Pentaho Marketplace
+and requires additional installation.  Instructions to download and install the Tableau Data Extract
+API are available in the README or at: https://github.com/cdeptula/tdeoutputplugin]]></description>
 		<author>OpenBI</author>
 		<author_url>http://www.openbi.com</author_url>
 		<author_logo>http://openbi.com/sites/default/files/OpenBI%20Logo-small-with-tagline.PNG</author_logo>
-		<installation_notes>
-			Due to licensing the Tableau Data Extract API is not distributed through the Pentaho Marketplace and must be separately downloaded and installed using the instructions below.
+		<installation_notes><![CDATA[
+Due to licensing the Tableau Data Extract API is not distributed through the Pentaho Marketplace and must be separately downloaded and installed using the instructions below.
 
-			1. Install the Tableau Data Exract Output plugin from the Pentaho marketplace.
-			2. Download the "C/C++/Java" data extract API from Tableau for your environment. Choose the 32 bit or 64 bit version based on your Java JDK. - http://www.tableausoftware.com/data-extract-api
-			3. Unzip the downloaded zip.
-			4. For PDI 5.0 and above - Copy the contents of the Java directory to ${PDI_HOME}/plugins/steps/TDEOutputPlugin directory.
-			5. For PDI 4.8 and below - Copy the contents of the Java6 directory to ${PDI_HOME}/plugins/steps/TDEOutputPlugin directory.
-			6. For Windows - Add the bin folder from the downloaded Tableau API zip to your system path variable.
-			7. For Linux - Add the lib folder from the downloaded Tableau API zip to the LD_LIBRARY_PATH variable.
-			8. Restart PDI
+1. Install the Tableau Data Exract Output plugin from the Pentaho marketplace.
+2. Download the "C/C++/Java" data extract API from Tableau for your environment. Choose the 32 bit or 64 bit version based on your Java JDK. - http://www.tableausoftware.com/data-extract-api
+3. Unzip the downloaded zip.
+4. For PDI 5.0 and above - Copy the contents of the Java directory to ${PDI_HOME}/plugins/steps/TDEOutputPlugin directory.
+5. For PDI 4.8 and below - Copy the contents of the Java6 directory to ${PDI_HOME}/plugins/steps/TDEOutputPlugin directory.
+6. For Windows - Add the bin folder from the downloaded Tableau API zip to your system path variable.
+7. For Linux - Add the lib folder from the downloaded Tableau API zip to the LD_LIBRARY_PATH variable.
+8. Restart PDI]]>
 		</installation_notes>
 		<documentation_url>https://github.com/cdeptula/tdeoutputplugin/wiki</documentation_url>
 		<versions>
@@ -2700,12 +2702,12 @@ Note: See also the advanced R script executor plug-in within the Marketplace.
         <author>DEKAR laboratory</author>
         <small_img/>
         <installation_notes><![CDATA[
-				R script plugin can be installed by performing the following steps:
-				1) Install R project from the site http://www.r-project.org/
-				2) Install rJava package in R by executing: install.packages("rJava")
-				3) Copy JRI library rJava/jri/jri.dll or rJava/jri/libjri.so to: data-integration/libswt/{Platform_64bit}
-				4) Specify location of R using R_HOME environment variable.
-		]]>
+R script plugin can be installed by performing the following steps:
+1) Install R project from the site http://www.r-project.org/
+2) Install rJava package in R by executing: install.packages("rJava")
+3) Copy JRI library rJava/jri/jri.dll or rJava/jri/libjri.so to: data-integration/libswt/{Platform_64bit}
+4) Specify location of R using R_HOME environment variable.
+]]>
         </installation_notes>
 		<cases_url>https://github.com/dekarlab/pentahor/issues</cases_url>
 		<license_name>GNU General Public License</license_name>
@@ -2796,19 +2798,19 @@ This step detects identical, changed, added and removed rows.</description>
         <id>Jare_Rule_Engine_Plugin</id>
         <type>Step</type>
         <name>JaRE - Java Rule Engine</name>
-        <description>
-		Check data against rules defined in external xml files. The advantage being
-		that the logic is not defined in the transformation but externally.
+        <description><![CDATA[
+Check data against rules defined in external xml files. The advantage being
+that the logic is not defined in the transformation but externally.
 
-		Rules are defined in groups and subgroups allowing to combine them
-		with flexible and/or conditions. So a group may pass the check even though
-		some of the rules might have failed.
+Rules are defined in groups and subgroups allowing to combine them
+with flexible and/or conditions. So a group may pass the check even though
+some of the rules might have failed.
 
-		You may check a single field or fields against each other. The rule engine
-		also allows for actions (e.g. update a field), depending on the result of the
-		check.
+You may check a single field or fields against each other. The rule engine
+also allows for actions (e.g. update a field), depending on the result of the
+check.
 
-		Detailed documentation on the rule engine: https://github.com/uwegeercken/jareplugin/blob/master/plugins/steps/JarePlugin/jare_v0.60.pdf
+Detailed documentation on the rule engine: https://github.com/uwegeercken/jareplugin/blob/master/plugins/steps/JarePlugin/jare_v0.60.pdf]]>
 	</description>
         <documentation_url>https://github.com/uwegeercken/jareplugin/blob/master/plugins/steps/JarePlugin/readme.txt</documentation_url>
         <author>Uwe Geercken / Datamelt</author>
